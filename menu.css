@@ -877,6 +877,35 @@ padding-right: 10px;
     object-position: 0px -50px;
     border-radius: 20px;
   }
+
+  article:hover .button-price {
+    transform: translateX(-300%);
+  }
+  
+  .btn-container{
+    margin: 4% 35%;
+  }
+
+  footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+    row-gap: 10px;
+  }
+
+  .footer-titre{
+    grid-column: span 5;
+  }
+
+  footer li{
+    text-align: center;
+    font-size: small;
+    grid-column: span 5;
+  }
+ 
+
+
 }
 
 @media (min-width: 1024px){
@@ -884,12 +913,14 @@ padding-right: 10px;
     display: grid;
     grid-template-columns: 1fr;
     padding: 0px 50px;
-
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .menus{
-    padding-left: 220px;
-    padding-right: 220px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .section1{
@@ -898,8 +929,8 @@ padding-right: 10px;
   }
 
   .section2{
-    padding-left: 220px;
-    padding-right: 220px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .restaurant_image{
@@ -912,4 +943,26 @@ padding-right: 10px;
     object-position: 0px 0px;
     border-radius: 20px;
   }
+
+  article:hover .button-price {
+    transform: translateX(-300%);
+  }
+
+  .btn-container{
+    margin: 5% 35%;
+  }
+
+  footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+  }
+
+  footer li{
+    text-align: center;
+  }
+
+ 
+
 }
