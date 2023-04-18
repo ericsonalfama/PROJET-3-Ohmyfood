@@ -302,40 +302,11 @@ article:hover .menu-description p{
 }
 
  
-.conteneur-heart{
-  position: relative;
-  justify-content: center;
-  align-content: center;
-}
 
- .ri-heart-fill{
-  position: absolute;
-  top: -25px;
-  right: 5px;
-  left: -35px;
-  z-index: 3;
-  opacity: 0;
-  background-color: red;
-  background-image: linear-gradient(to bottom, #ff7eb6, #9356DC);
-  background-size: 100%;
-  background-repeat: repeat;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-  cursor: pointer;
-  font-size: 2em;
- }
+ 
  
 .ri-heart-line{
   font-size: 2em;
-  position: absolute;
-  opacity: 1;
-  top: -25px;
-  right: 5px;
-  left: -35px;
-  z-index: 2;
 }
 
 .ri-heart-line:hover{
@@ -350,11 +321,32 @@ article:hover .menu-description p{
   -moz-text-fill-color: transparent;
   cursor: pointer;
 }
-
-.conteneur-heart:hover .ri-heart-fill{
-  opacity: 1;
-}
  
+
+
+.product-icon {
+  width: 50px; /* largeur de l'icône */
+  height: 50px; /* hauteur de l'icône */
+  border-radius: 50%; /* forme ronde */
+ 
+  display: flex; /* utiliser le modèle flexbox */
+  justify-content: center; /* centrer horizontalement */
+  align-items: center; /* centrer verticalement */
+  transition: all 0.3s ease-in-out; /* transition fluide */
+}
+
+.product-icon i {
+  font-size: 24px; /* taille de l'icône */
+  color: white; /* couleur de l'icône */
+  border: 1px solid ;
+}
+
+.product-icon:hover i{
+  border: none; /* retirer le contour au survol */
+  background: linear-gradient(45deg, #f0a4b4, #b386f9); /* gradient rose-violet */
+}
+
+
 
 /* Feature section */
 .feature {
@@ -515,26 +507,6 @@ padding-right: 10px;
 .btn-container{
   margin: 25px 25%;
 }
-
-.ri-heart-fill{
-  position: absolute;
-  top: -25px;
-  right: 5px;
-  left: -35px;
-  z-index: 3;
-  opacity: 0;
-  background-color: red;
-  background-image: linear-gradient(to bottom, #ff7eb6, #9356DC);
-  background-size: 100%;
-  background-repeat: repeat;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-  cursor: pointer;
-  font-size: 2em;
- }
 
 .la_carte{
   position: relative;
