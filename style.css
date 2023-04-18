@@ -149,6 +149,11 @@ input::placeholder {
   margin-bottom: 20px;
 }
 
+
+#contact{
+  color: #ffffff;
+}
+
 a{
   color: #333;
   text-decoration: none;
@@ -157,6 +162,7 @@ a{
  #contact{
   color: #ffffff;
 } 
+
 
 .boutons{
   display: flex;
