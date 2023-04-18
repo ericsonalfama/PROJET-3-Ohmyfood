@@ -153,6 +153,10 @@ a{
   color: #333;
   text-decoration: none;
 }
+  
+ #contact{
+  color: #ffffff;
+} 
 
 .boutons{
   display: flex;
@@ -723,6 +727,10 @@ padding-right: 10px;
   .fa-handshake-angle{
   padding-right: 10px;
   }
+ 
+  #contact{
+  color: #ffffff;
+  }
   
   }
   
@@ -754,5 +762,9 @@ padding-right: 10px;
     .product-card__image{
       object-fit: cover;
     }
+   
+   #contact{
+   color: #ffffff;
+}
 
   }
