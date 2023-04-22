@@ -344,18 +344,6 @@ color: #939393;
   opacity: 1;
 }
  
-
-
-
-
-
-
-
-
-
-
-
-
 .product-card__description--text{
   bottom: 200px;
 }
@@ -548,7 +536,7 @@ padding-right: 10px;
     height: auto;
     padding: 25px 25px;
     display: grid;
-    grid-template-columns: repeat(3, 1r);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1em;
   }
 
