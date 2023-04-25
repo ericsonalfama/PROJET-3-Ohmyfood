@@ -274,38 +274,13 @@ color: #939393;
   align-items: center;
 }
 
-.ri-heart-fill{
-  font-size: 2em;
-  color: #939393;
-  cursor: pointer;
-  z-index: 3;
-  transition: all 0.2s;
-}
-
-.ri-heart-fill:hover{
-  color: #939393;
-  background-image: linear-gradient(to bottom, #ff7eb6, #9356DC);
-  background-size: 100%;
-  background-repeat: repeat;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-  cursor: pointer;
-  
-}
-
-
+ 
 /* ICÔNE COEUR*/
-
-
-
 .conteneur-heart{
   position: relative;
   justify-content: center;
   align-content: center;
-}
+} 
 
  .ri-heart-fill{
   position: absolute;
@@ -315,7 +290,23 @@ color: #939393;
   z-index: 3;
   opacity: 0;
   font-size: 2em;
+  color: #ffffff;
+  background-image: linear-gradient(to bottom, #ff7eb6, #9356DC);
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  cursor: pointer;
+  transition: all 1s ease-in-out; 
  }
+
+.ri-heart-fill:hover{
+  opacity: 1;
+ 
+}
  
 .ri-heart-line{
   font-size: 2em;
@@ -325,6 +316,7 @@ color: #939393;
   right: 5px;
   left: -35px;
   z-index: 2;
+  transition: all 1s ease-in;
 }
 
 .ri-heart-line:hover{
@@ -338,10 +330,7 @@ color: #939393;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
   cursor: pointer;
-}
-
-.conteneur-heart:hover .ri-heart-fill{
-  opacity: 1;
+  opacity: 0;
 }
  
 .product-card__description--text{

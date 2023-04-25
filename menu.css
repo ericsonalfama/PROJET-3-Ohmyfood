@@ -302,13 +302,12 @@ article:hover .menu-description p{
   white-space: nowrap;
   overflow: hidden;
 }
-
- 
+/* ICÔNE COEUR*/
 .conteneur-heart{
   position: relative;
   justify-content: center;
   align-content: center;
-}
+} 
 
  .ri-heart-fill{
   position: absolute;
@@ -317,7 +316,8 @@ article:hover .menu-description p{
   left: -35px;
   z-index: 3;
   opacity: 0;
-  background-color: red;
+  font-size: 2em;
+  color: #ffffff;
   background-image: linear-gradient(to bottom, #ff7eb6, #9356DC);
   background-size: 100%;
   background-repeat: repeat;
@@ -327,8 +327,13 @@ article:hover .menu-description p{
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
   cursor: pointer;
-  font-size: 2em;
+  transition: all 1s ease-in-out; 
  }
+
+.ri-heart-fill:hover{
+  opacity: 1;
+ 
+}
  
 .ri-heart-line{
   font-size: 2em;
@@ -338,6 +343,7 @@ article:hover .menu-description p{
   right: 5px;
   left: -35px;
   z-index: 2;
+  transition: all 1s ease-in;
 }
 
 .ri-heart-line:hover{
@@ -351,10 +357,7 @@ article:hover .menu-description p{
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
   cursor: pointer;
-}
-
-.conteneur-heart:hover .ri-heart-fill{
-  opacity: 1;
+  opacity: 0;
 }
  
 
