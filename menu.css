@@ -343,7 +343,7 @@ article:hover .menu-description p{
   right: 5px;
   left: -35px;
   z-index: 2;
-  transition: all 1s ease-in;
+ 
 }
 
 .ri-heart-line:hover{
