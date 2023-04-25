@@ -918,7 +918,7 @@ padding-right: 10px;
     grid-column: span 5;
   }
 
-  footer li{
+  footer ul{
     text-align: center;
     font-size: small;
     grid-column: span 5;

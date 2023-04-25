@@ -860,6 +860,7 @@ padding-right: 10px;
       -moz-background-clip: text;
       -moz-text-fill-color: transparent;
       cursor: pointer;
+      transition: all 1s ease-in-out; 
      }
      
     .ri-heart-line{
